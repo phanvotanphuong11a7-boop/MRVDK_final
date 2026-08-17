@@ -1,0 +1,227 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 0 ]
+"201 D:\word\ViDieuKhien\MR\final\MR_final.X\main.c
+[e E1421 . `uc
+PORT_A 0
+PORT_B 1
+PORT_C 2
+PORT_D 3
+PORT_E 4
+]
+[e E1428 . `uc
+PIN_0 0
+PIN_1 1
+PIN_2 2
+PIN_3 3
+PIN_4 4
+PIN_5 5
+PIN_6 6
+PIN_7 7
+]
+[e E1442 . `uc
+GPIO_LOW 0
+GPIO_HIGH 1
+]
+"4 D:\word\ViDieuKhien\MR\final\MR_final.X\hal/hal_gpio.c
+[e E2 . `uc
+PORT_A 0
+PORT_B 1
+PORT_C 2
+PORT_D 3
+PORT_E 4
+]
+[e E9 . `uc
+PIN_0 0
+PIN_1 1
+PIN_2 2
+PIN_3 3
+PIN_4 4
+PIN_5 5
+PIN_6 6
+PIN_7 7
+]
+[e E19 . `uc
+GPIO_DIR_OUTPUT 0
+GPIO_DIR_INPUT 1
+]
+"83
+[e E23 . `uc
+GPIO_LOW 0
+GPIO_HIGH 1
+]
+"23 D:\word\ViDieuKhien\MR\final\MR_final.X\sys/sys_config.c
+[e E1421 . `uc
+PORT_A 0
+PORT_B 1
+PORT_C 2
+PORT_D 3
+PORT_E 4
+]
+[e E1428 . `uc
+PIN_0 0
+PIN_1 1
+PIN_2 2
+PIN_3 3
+PIN_4 4
+PIN_5 5
+PIN_6 6
+PIN_7 7
+]
+[e E1438 . `uc
+GPIO_DIR_OUTPUT 0
+GPIO_DIR_INPUT 1
+]
+"27
+[e E1442 . `uc
+GPIO_LOW 0
+GPIO_HIGH 1
+]
+"10 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"4 D:\word\ViDieuKhien\MR\final\MR_final.X\hal/hal_gpio.c
+[v _HAL_GPIO_SetDirection HAL_GPIO_SetDirection `(v  1 e 1 0 ]
+"75
+[v _HAL_GPIO_PullUpEnable HAL_GPIO_PullUpEnable `(v  1 e 1 0 ]
+"83
+[v _HAL_GPIO_WritePin HAL_GPIO_WritePin `(v  1 e 1 0 ]
+"131
+[v _HAL_GPIO_ReadPin HAL_GPIO_ReadPin `(E1442  1 e 1 0 ]
+"198 D:\word\ViDieuKhien\MR\final\MR_final.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"7 D:\word\ViDieuKhien\MR\final\MR_final.X\sys/sys_config.c
+[v _sys_config sys_config `(v  1 e 1 0 ]
+"21
+[v _System_GPIO_Config System_GPIO_Config `(v  1 s 1 System_GPIO_Config ]
+"166 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f887.h
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"228
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"290
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"352
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"414
+[v _PORTE PORTE `VEuc  1 e 1 @9 ]
+[s S154 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"482
+[s S163 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+[u S168 . 1 `S154 1 . 1 0 `S163 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES168  1 e 1 @11 ]
+[s S99 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+"1366
+[s S106 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+]
+[u S110 . 1 `S99 1 . 1 0 `S106 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES110  1 e 1 @129 ]
+"1416
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1478
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1540
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1602
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1664
+[v _TRISE TRISE `VEuc  1 e 1 @137 ]
+"2346
+[v _WPUB WPUB `VEuc  1 e 1 @149 ]
+"3387
+[v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
+"3449
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"198 D:\word\ViDieuKhien\MR\final\MR_final.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"222
+[v main@i_73 i `us  1 a 2 4 ]
+"216
+[v main@i_72 i `us  1 a 2 2 ]
+"210
+[v main@i i `us  1 a 2 0 ]
+"203
+[v main@bt3 bt3 `a  1 a 1 8 ]
+"202
+[v main@bt2 bt2 `a  1 a 1 7 ]
+"201
+[v main@bt1 bt1 `a  1 a 1 6 ]
+"228
+} 0
+"7 D:\word\ViDieuKhien\MR\final\MR_final.X\sys/sys_config.c
+[v _sys_config sys_config `(v  1 e 1 0 ]
+{
+"19
+} 0
+"21
+[v _System_GPIO_Config System_GPIO_Config `(v  1 s 1 System_GPIO_Config ]
+{
+"40
+} 0
+"83 D:\word\ViDieuKhien\MR\final\MR_final.X\hal/hal_gpio.c
+[v _HAL_GPIO_WritePin HAL_GPIO_WritePin `(v  1 e 1 0 ]
+{
+[v HAL_GPIO_WritePin@port port `E2  1 p 1 wreg ]
+[v HAL_GPIO_WritePin@port port `E2  1 p 1 wreg ]
+[v HAL_GPIO_WritePin@pin pin `E9  1 p 1 0 ]
+[v HAL_GPIO_WritePin@state state `E23  1 p 1 1 ]
+[v HAL_GPIO_WritePin@port port `E2  1 p 1 4 ]
+"128
+} 1
+"4
+[v _HAL_GPIO_SetDirection HAL_GPIO_SetDirection `(v  1 e 1 0 ]
+{
+[v HAL_GPIO_SetDirection@port port `E2  1 p 1 wreg ]
+[v HAL_GPIO_SetDirection@port port `E2  1 p 1 wreg ]
+[v HAL_GPIO_SetDirection@pin pin `E9  1 p 1 0 ]
+[v HAL_GPIO_SetDirection@dir dir `E19  1 p 1 1 ]
+[v HAL_GPIO_SetDirection@port port `E2  1 p 1 4 ]
+"73
+} 1
+"75
+[v _HAL_GPIO_PullUpEnable HAL_GPIO_PullUpEnable `(v  1 e 1 0 ]
+{
+[v HAL_GPIO_PullUpEnable@pin pin `E9  1 p 1 wreg ]
+[v HAL_GPIO_PullUpEnable@pin pin `E9  1 p 1 wreg ]
+[v HAL_GPIO_PullUpEnable@pin pin `E9  1 p 1 1 ]
+"78
+} 1
+"131
+[v _HAL_GPIO_ReadPin HAL_GPIO_ReadPin `(E1442  1 e 1 0 ]
+{
+[v HAL_GPIO_ReadPin@port port `E2  1 p 1 wreg ]
+"132
+[v HAL_GPIO_ReadPin@bit_status bit_status `a  1 a 1 4 ]
+"131
+[v HAL_GPIO_ReadPin@port port `E2  1 p 1 wreg ]
+[v HAL_GPIO_ReadPin@pin pin `E9  1 p 1 0 ]
+[v HAL_GPIO_ReadPin@port port `E2  1 p 1 3 ]
+"155
+} 1
